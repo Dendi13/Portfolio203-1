@@ -50,8 +50,11 @@ h1, h2, h3 {
 .about__tittle {
     margin-bottom: 20px;
 }
+.about__text {
+    margin-bottom: 30px;
+}
 .about__info {
-  width: 59%;    
+  padding-right: 12%;
 }
 .button {
     background-color: red;
@@ -59,7 +62,8 @@ h1, h2, h3 {
    width: 208px;
    height: 47px;
    border: none;
-   margin-top: 20px;
+
+   border-style: none;
 }
 .about__img-wrap {
  width: 243px;
@@ -67,6 +71,7 @@ h1, h2, h3 {
  border-radius: 50%;
  overflow: hidden;  
  margin-left: 115px;
+ flex-shrink:0;
 }
 .about__img {
     width: 100%;   
