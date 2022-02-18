@@ -90,6 +90,14 @@ h1, h2, h3 {
     margin-bottom: 22px;
 }
 
+.recent-posts__title {
+    font-size: 22px;    
+    color: #21243D;
+}
+.recent-posts__link {
+    font-size: 16px;
+    color: #00A8CC;
+}
 .recent-posts__articles {
     display: flex;
     justify-content: space-between;
@@ -113,7 +121,7 @@ h1, h2, h3 {
 }
 
 .recent-posts__subtitle {
-    font-size: bold;
+    font-weight: bold;
     Font-size: 26px;
     width: 374px;
     height: 85px;
