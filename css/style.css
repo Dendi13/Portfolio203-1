@@ -32,6 +32,7 @@ h3 {
   max-width: 865px;
   margin: 0 auto;
   padding: 0 5px;
+  
 }
 .header__container {
   max-width: 1032px;
@@ -184,13 +185,25 @@ h3 {
   display: flex;
 }
 .footer__container {
-     display: flex;
+  padding-top: 83px;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-   padding-top: 83px;
 }
-.e-mail {
-    color: #21243d;
-    padding-bottom: 54px;
+.items {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
 }
+.item {
+  margin-right: 35px;
+  margin-bottom: 26px;
+}
+.email {
+  color: #21243D;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 45px;
+  margin-right: 35px;
+}
+
