@@ -262,6 +262,17 @@ border: 1px solid #E0E0E0;
 .work {
   display: flex;
 }
+@media(max-width:480px){
+  .title-category {
+    text-align: center;
+  }
+  .work {
+    flex-direction: column;
+  }
+  .work_block {
+    display: none;
+  }
+}
 .footer__container {
   padding-top: 83px;
   display: flex;
