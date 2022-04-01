@@ -361,6 +361,17 @@ h3 {
   width: 506px;
   margin-top: 78px;
 }
+@media (max-width: 480px) {
+  .Detai__tittle {
+    width: 339px;
+    height: 80px;
+    margin-top: 50px;
+  }
+  .Detai__block-text {
+    width: 339px;
+    height: 90px;
+  }
+}
 .Detai__number {
   display: flex;
   margin-top: 20px;
@@ -379,4 +390,41 @@ h3 {
 .Detai__dop {
   font-weight: 400;
   font-size: 20px;
+}
+.Detai__block-text {
+  width: 681px;
+  height: 44px;
+}
+.Detai__text {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.Detai__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Detai__img-wrap {
+  margin-top: 44px;
+  width: 681px;
+  height: 460px;
+}
+#Detai__img-wrap-shadow {
+  box-shadow: 5px 5px 10px black;
+  border: solid 1px black;
+}
+.Detai__img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#Detai__tittle2 {
+  font-weight: 500;
+  font-size: 30px;
+}
+#Detai__tittle3 {
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 5px;
 }
